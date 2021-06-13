@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 48px;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 970px;
+    margin: 52px auto 0;
+}
+
+.contenedor .titulo{
+    margin-bottom: 12px;
+}
+
+.contenedor .titulo h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+}
+
+.contenedor .texto{
+    display: flex;
+    flex-direction: row;   
+    width: 65%;
+}
+
+.contenedor .imagen-i{
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: -34px;  
+}
+
+.contenedor .texto p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+
+.contenedor .imagen-comida{
+    margin-top: 43px;
+    width: 100%;
+}
+
+.contenedor .imagen-comida img{
+    width: 100%;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor .seccion-aside .ingredients .titulo{
+    margin-bottom: 32px;
+} 
+
+.contenedor .titulo h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #333333;
+}
+
+.contenedor .seccion-aside .ingredients .sub-titulo{
+    margin-bottom: 31px;
+}
+
+.contenedor .seccion-aside .ingredients .sub-titulo h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+}
+
+.contenedor .seccion-aside .ingredients .Graham_Cracker_Crust{
+    margin-bottom: 38px;
+}
+
+.contenedor .seccion-aside .ingredients .chequo input[type="checkbox"]{
+    width: 21px;
+    height: 21px;
+    margin-right: 17px; 
+}
+
+.contenedor .seccion-aside .ingredients .check-label{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+}
+
+
+
+.contenedor .seccion-aside .ingredients .check-label label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contenedor .negrita{
+    font-weight: 700;
+    color: #333333;
+}
+
+.contenedor .seccion-aside .tiempos{
+    height: 367px;
+    width: 216px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 0 40px;
+}
+
+.contenedor .seccion-aside .ingredients{
+    width: 60%;
+}
+
+.contenedor .seccion-aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido{
+    margin-bottom: 42px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido .icono{
+    margin-right: 14px;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido .material-icons{
+    font-size: 28px;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido .naranja{
+    color: #F2994A;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido .textos span{ 
+    display: block;
+    margin-bottom: 4px;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido .textos .nombre{  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BDBDBD;
+}
+
+.contenedor .seccion-aside .tiempos .contenedor .contenido .textos .tiempo{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contenedor .instructions{
+    width: 60%;
+}
+
+.contenedor .instructions .titulo{
+    margin-bottom: 28px;
+}
+
+.contenedor .instructions .instrucciones .ol{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor .instructions .instrucciones .ol .li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 13px;
+    background: #F2994A;
+    margin-right: 15px;
+    width: 36px;
+    height: 36px;  
+    border-radius: 6px;
+}
+
+.contenedor .instructions .instrucciones .ol .li p{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFF;
+}
+
+
+.contenedor .instructions .instrucciones .ol p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.contenedor .enlace{
+    margin-top: 27px;
+}
+
+.contenedor .enlace a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+footer{
+    margin-top: 57px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;   
+    color: #A9A9A9;
+}
+
+
+@media screen and (max-width:375px){
+
+    .contenedor{
+        width: 95%;
+        margin: 32px auto 0;
+    }
+
+    header{
+        margin-bottom: 24px;
+    }
+
+    .contenedor .titulo h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contenedor .texto{
+        width: 95%;
+    }
+
+    .contenedor .imagen-i{
+        display: inline-block;
+        margin-right: 12px;
+        margin-top: -54px;   
+    }
+
+    .contenedor .texto p{
+        font-size: 12px;
+        line-height: 15px;
+        color: #4F4F4F;
+    }
+
+    .contenedor .imagen-comida{
+        margin-top: 20px;
+        height: 214px;
+    }
+
+    .contenedor .imagen-comida img{       
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 6px;
+    }
+
+    .contenedor .seccion-aside{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .contenedor .seccion-aside .tiempos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .contenedor .seccion-aside .tiempos .contenedor{
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenedor .seccion-aside .tiempos .contenedor .tiempos-pastel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contenedor .seccion-aside .tiempos .contenedor .contenido{
+        margin-bottom: 20px;
+    }
+
+    .contenedor .seccion-aside .tiempos .contenedor .contenido .material-icons{
+        font-size: 14px;
+    }
+
+    .contenedor .seccion-aside .tiempos .contenedor .contenido .textos .nombre{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .contenedor .seccion-aside .tiempos .contenedor .contenido .textos .tiempo{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .contenedor .seccion-aside .ingredients{
+        width: 100%;
+    }
+
+    .contenedor .instructions{
+        width: 100%;
+    }
+
+    .contenedor .titulo h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contenedor .seccion-aside .ingredients .sub-titulo h4{
+        font-size: 16px;
+        line-height: 21px;  
+    }
+
+    .contenedor .seccion-aside .ingredients .check-label label{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+}
+/*font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif;
+*/
